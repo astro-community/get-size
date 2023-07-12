@@ -1,0 +1,9 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"name": "@astropub/get-size.test",
+	"type": "module",
+	"dependencies": {
+		"@astropub/get-size": "*"
+	},
+	"private": true
+}

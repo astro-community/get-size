@@ -9,7 +9,7 @@ import getSizeFromIterator from './Iterable.js'
 
 import './Uint8Array.js'
 import '../types.js'
-import '../detector.js'
+import '../getType.js'
 import '../utils/getMergedUint8Array.js'
 
 export default function getSizeFromFileSync(/** @type {PathLike} */ path, /** @type {GetSizeFromFileSyncOptions} */ opts = null) {

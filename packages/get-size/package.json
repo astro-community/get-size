@@ -1,7 +1,7 @@
 {
 	"$schema": "https://json.schemastore.org/package.json",
 	"name": "@astropub/get-size",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"type": "module",
 	"main": "./lib/getSize.js",
 	"types": "./lib/getSize.d.ts",

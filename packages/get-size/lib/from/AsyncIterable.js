@@ -2,7 +2,7 @@ import getSizeFromUint8Array from './Uint8Array.js'
 import getMergedUint8Array from '../utils/getMergedUint8Array.js'
 
 import '../types.js'
-import '../detector.js'
+import '../getType.js'
 
 export default async function getSizeFromAsyncIterable(/** @type {Iterable<Uint8Array> | AsyncIterable<Uint8Array>} */ iteratable) {
 	await import('../utils/ReadableStreamPolyfill.js')

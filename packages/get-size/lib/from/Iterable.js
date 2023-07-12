@@ -2,7 +2,7 @@ import getSizeFromUint8Array from './Uint8Array.js'
 import getMergedUint8Array from '../utils/getMergedUint8Array.js'
 
 import '../types.js'
-import '../detector.js'
+import '../getType.js'
 
 export default function getSizeFromIterator(/** @type {Iterable<Uint8Array>} */ iterable) {
 	let array = new Uint8Array()
