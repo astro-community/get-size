@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		/* Type Checking */
+		"strict": true,
+		"exactOptionalPropertyTypes": true,
+
+		/* Modules */
+		"allowArbitraryExtensions": true,
+		"allowImportingTsExtensions": true,
+		"module": "ESNext",
+		"moduleDetection": "force",
+		"moduleResolution": "NodeNext",
+
+		/* Emit */
+		"noEmit": true,
+
+		/* Interop Constraints */
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"verbatimModuleSyntax": true,
+
+		/* Completeness */
+		"skipLibCheck": true,
+
+		/* Language and Environment */
+		"target": "ESNext",
+	}
+}

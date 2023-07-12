@@ -1,0 +1,42 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"name": "@astropub/get-size",
+	"version": "0.1.0",
+	"type": "module",
+	"main": "./lib/getSize.js",
+	"types": "./lib/getSize.d.ts",
+	"exports": {
+		".": {
+			"import": "./lib/getSize.js",
+			"types": "./lib/getSize.d.ts"
+		},
+		"./from/AsyncIterable": {
+			"import": "./lib/from/AsyncIterable.js",
+			"types": "./lib/from/AsyncIterable.d.ts"
+		},
+		"./from/FileSync": {
+			"import": "./lib/from/FileSync.js",
+			"types": "./lib/from/FileSync.d.ts"
+		},
+		"./from/Iterable": {
+			"import": "./lib/from/Iterable.js",
+			"types": "./lib/from/Iterable.d.ts"
+		},
+		"./from/ReadableStream": {
+			"import": "./lib/from/ReadableStream.js",
+			"types": "./lib/from/ReadableStream.d.ts"
+		},
+		"./from/Uint8Array": {
+			"import": "./lib/from/Uint8Array.js",
+			"types": "./lib/from/Uint8Array.d.ts"
+		},
+		"./from/URL": {
+			"import": "./lib/from/URL.js",
+			"types": "./lib/from/URL.d.ts"
+		}
+	},
+	"author": "David DeSandro",
+	"license": "MIT",
+	"homepage": "https://github.com/astro-community/get-size",
+	"bugs": "https://github.com/astro-community/get-size/issues"
+}

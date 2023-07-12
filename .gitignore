@@ -1,0 +1,14 @@
+# generated
+node_modules
+
+# logs
+*.log*
+
+# locks
+*-lock.*
+
+# environment
+*.env*
+
+# macos
+.DS_Store

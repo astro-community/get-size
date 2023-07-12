@@ -1,0 +1,56 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"name": "@astropub/get-size.root",
+	"type": "module",
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"check": "node scripts/check.js",
+		"release": "node scripts/release.js"
+	},
+	"devDependencies": {
+		"@types/node": "20.4.1",
+		"@typescript-eslint/eslint-plugin": "6.0.0",
+		"@typescript-eslint/parser": "6.0.0",
+		"@typescript/lib-dom": "npm:@types/web@^0.0.105",
+		"brotli-size": "4.0.0",
+		"eslint": "8.44.0",
+		"eslint-config-dev": "3.3.1",
+		"eslint-plugin-json": "3.1.0",
+		"gzip-size": "7.0.0",
+		"rollup-plugin-terser": "7.0.2",
+		"rollup-plugin-typescript2": "0.35.0",
+		"types-object": "0.3.0",
+		"typescript": "5.1.6",
+		"vite": "4.4.3"
+	},
+	"eslintConfig": {
+		"extends": [
+			"dev/ts/nosemi"
+		],
+		"plugins": [
+			"json"
+		],
+		"rules": {
+			"indent": [
+				"error",
+				"tab"
+			]
+		}
+	},
+	"prettier": {
+		"singleQuote": true,
+		"useTabs": true,
+		"overrides": [
+			{
+				"files": "*.md",
+				"options": {
+					"tabWidth": 2,
+					"useTabs": false
+				}
+			}
+		]
+	},
+	"private": true
+}

@@ -1,0 +1,32 @@
+{
+	/* Editor */
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"editor.insertSpaces": false,
+	"editor.useTabStops": true,
+
+	/* Prettier */
+	"prettier.ignorePath": "/.vscode/.prettierignore",
+	"prettier.useEditorConfig": true,
+
+	/* JavaScript */
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+
+	/* JSON */
+	"[json]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+
+	/* JSON */
+	"[jsonc]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+
+	/* TypeScript */
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+}

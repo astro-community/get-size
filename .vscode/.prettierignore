@@ -1,0 +1,3 @@
+# Ignore all JS/TS files:
+*.js
+*.ts
